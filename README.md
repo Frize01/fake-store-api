@@ -13,6 +13,10 @@ use lorem ipsum data or create a JSON file from the base. I didn't find any onli
 to return semi-real shop data instead of lorem ipsum data.
 so I decided to create this simple web service with NodeJs(express) and MongoDB as a database.
 
+## How to start
+
+Sur Mac : `UID=$(id -u) GID=$(id -g) docker-compose up --build -d`
+
 ## Resources
 
 There are 4 main resources need in shopping prototypes:
